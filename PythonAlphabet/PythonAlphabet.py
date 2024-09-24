@@ -2,6 +2,9 @@
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-a = input()
+a = input("アルファベットの大文字を1文字入力してください")
 
-print(alphabet.index(a) + 1)
+if a in alphabet:
+  print(alphabet.index(a) + 1)
+else:
+  print("入力されたのはアルファベットの大文字ではありません！！")
