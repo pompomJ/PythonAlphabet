@@ -1,4 +1,4 @@
-#アルファベットの順番に対応した数字を出力するプログラム
+# 入力されたアルファベットの順番を出力するプログラム
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
